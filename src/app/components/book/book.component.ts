@@ -12,6 +12,8 @@ export class BookComponent {
   book : Book = {} as Book;
     
   
-
+  save(){
+    console.log("Save");
+  }
 
 }
